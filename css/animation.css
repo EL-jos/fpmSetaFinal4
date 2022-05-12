@@ -1,0 +1,29 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.12,
+* Autoprefixer: v10.4.4
+* Browsers: last 4 version
+*/
+
+@-webkit-keyframes indicator_scrol_down {
+    0%{
+        opacity: 1;
+        top: 10px;
+    }100%{
+        opacity: 0;
+        top: 30px;
+        -webkit-transform: scale(.8);
+                transform: scale(.8);
+    }
+}
+@keyframes indicator_scrol_down {
+    0%{
+        opacity: 1;
+        top: 10px;
+    }100%{
+        opacity: 0;
+        top: 30px;
+        -webkit-transform: scale(.8);
+                transform: scale(.8);
+    }
+}
